@@ -23,7 +23,7 @@
   "scripts": {
     "antlr4ts": "antlr4ts src/antlr4/Agtype.g4",
     "test": "jest --verbose ./test",
-    "build": "rm -rf dist && tsc",
+    "build": "node init && rm -rf dist && tsc",
     "prepare": "npm run build"
   },
   "keywords": [],

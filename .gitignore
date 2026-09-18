@@ -17,3 +17,5 @@ __pycache__
 
 drivers/python/build
 *.bc
+config.bat
+node_modules
